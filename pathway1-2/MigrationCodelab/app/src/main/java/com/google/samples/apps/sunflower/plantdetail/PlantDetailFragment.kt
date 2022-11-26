@@ -78,7 +78,7 @@ class PlantDetailFragment : Fragment() {
                 setContent {
                     // You're in Compose world!
                     MdcTheme {
-                        PlantDetailDescription(viewModel)
+                        PlantDetailDescription(plantDetailViewModel)
                     }
                 }
             }
