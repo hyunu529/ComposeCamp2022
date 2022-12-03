@@ -98,6 +98,5 @@ class TopAppBarTest {
                 useUnmergedTree = true
             )
             .assertExists()
-
     }
 }
